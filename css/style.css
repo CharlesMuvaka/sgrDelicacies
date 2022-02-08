@@ -51,10 +51,67 @@ nav a:link{
 }
 main{
     
-    height: 600px;
+    height: 1200px;
     width: 100%;
     top: -20px;
     position: relative;
-    background-color: yellow;
+    background-color: white;
 
+}
+.book{
+    background-image: url("images/sgrImg.jpeg");
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    background-color: #882C37; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.book h4{
+    color: white;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.trainType{
+    width: 150px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+   
+}
+.from{
+    width: 250px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+   
+}
+.myform{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+.myform label{
+    font-size: 10px;
+    color: white;
+    font-weight: 500;
+}
+.btnBook{
+    position: relative;
+    top: 13px;
+    height: 30px;
+    width: 150px;
+    background-color: #FF5624;
+    border: 1px solid #FF5624;
+    color: white;
+    font-size: 11px;
+}
+.main1{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+   
 }
