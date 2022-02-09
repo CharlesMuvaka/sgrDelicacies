@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sausage{
+    display: flex;
+    margin-top: 5%;
+
+}
+#sausage img{
+    width: 20%;
+    margin-left: 10%;
+}
+.orderone{
+    height: 15vh;
+    
+    margin-left: 5%;
+    display: flex;
+    width: 40%;
+    
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07);
+
+    
+}
+.addsub{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin-left: -20%;
+    
+    
+  
+}
+.addsub button{
+    width: 40%;
+    height: 60%;
+    margin-top: 10%;
+    margin-right: 20%;
+    background-color: #882C37;
+    color: white;
+
+    
+}
+#cancel{
+    background-color: #882C37;
+    padding: 10%;
+    width: 150%;
+    height: 50%;
+    color: white;
+    margin-left: 40%;
+    margin-top: 30%;
+}
+
+.soda{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+#soda img{
+    width: 30%;
+    margin-left: 10%;
+    
+}
+.ordertwo{
+    height: 15vh;
+    
+    margin-left: 5%;
+    display: flex;
+    width: 40%;
+    
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07);
+
+    
+}
+.addsubtwo{
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    margin-left: 20%;
+    
+   
+
+    
+  
+}
+.addsubtwo button{
+    width: 25%;
+    height: 60%;
+    margin-top: 10%;
+    margin-right: 20%;
+    background-color: #882C37;
+    color: white;
+    
+    
+
+    
+}
+#canceltwo{
+    background-color: #882C37;
+    padding: 10%;
+    width: 150%;
+    height: 50%;
+    color: white;
+    margin-left: 40%;
+    margin-top: 30%;
+}
+.hotdog{
+    display: flex;
+    margin-top: 5%;
+
+}
+#hotdog img{
+    width: 20%;
+    margin-left: 10%;
+}
+.historyone{
+    height: 15vh;
+    
+    margin-left: 5%;
+    display: flex;
+    width: 40%;
+    
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07);
+
+    
+}
+.subadd{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    margin-left: -15%;
+    
+    
+  
+}
+.subadd button{
+    width: 25%;
+    height: 50%;
+    margin-top: 10%;
+    margin-right: 20%;
+    background-color: #882C37;
+    color: white;
+
+    
+}
+#reorderone{
+    background-color: #882C37;
+    padding: 10%;
+    width: 150%;
+    height: 50%;
+    color: white;
+    margin-left: 70%;
+    margin-top: 30%;
+}
+
+.burger{
+    display: flex;
+    margin-top: 5%;
+
+}
+#burger img{
+    width: 30%;
+    margin-left: 20%;
+    margin-top: 10%;
+    
+}
+.historytwo{
+    height: 15vh;
+    
+    margin-left: 5%;
+    display: flex;
+    width: 40%;
+    
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07);
+
+    
+}
+.subaddtwo{
+   display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    margin-left: 15%;
+    
+    
+    
+  
+}
+.subaddtwo button{
+   width: 20%;
+    height: 50%;
+    margin-top: 10%;
+    margin-right: 10%;
+    background-color: #882C37;
+    color: white;
+    
+
+    
+}
+#reordertwo{
+    background-color: #882C37;
+    padding: 10%;
+    width: 150%;
+    height: 50%;
+    color: white;
+    margin-left: 70%;
+    margin-top: 30%;
+}
+.orders{
+    color: #FF5624;
+    font-weight: 700;
+    margin-left: 10%;
+}
+#menu{
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 20%;
+    height: 5%;
+    padding: 0.5%;
+    background-color: #882C37;
+    color: white;
+}
+
+p {
+    background-color: yellow;
+    align-items: center;
+    font-size: larger;
+
+}
+
+
