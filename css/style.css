@@ -1,12 +1,30 @@
   /*sir felix l welcoming page*/
  
  header{
-    background-image: url("./img/wel");
+    background-image: url("/img/wel\ img.jpg");
     height: 700px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: 1300px;
 
  }
+
+ #welcoming{
+     text-align: center;
+     justify-content: center;
+     color: #8B4154;
+     font-size: large;
+    padding-top: 80px;
+ }
+.delicacies{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #FEDD42;
+    font-weight: bold;
+}
+#welcoming p{
+    font-size: 30px;
+    color: white;
+}
  
 
