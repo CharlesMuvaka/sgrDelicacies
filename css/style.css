@@ -51,7 +51,7 @@ nav a:link{
 }
 main{
     
-    height: 1200px;
+    height: 1180px;
     width: 100%;
     top: -20px;
     position: relative;
@@ -273,4 +273,65 @@ main{
     font-size: 15px;
     text-align: justify;
     color: #2d3e52;
+}
+footer{
+    height: 260px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot1{
+    height: 250px;
+    width: 25%;
+    
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot1 h5, .foot2 h5{
+    color: yellow;
+}
+.pf{
+    text-align: justify;
+    font-size: 13px;
+}
+.pf1{
+    height: 180px;
+    width: 100%;
+    color: black;
+   
+}
+.foot2{
+    height: 250px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.p53{
+    height: 180px;
+    width: 100%;
+    color: black;
+}
+.discover{
+    height: 50px;
+    
+}
+.discover a:link{
+    color: black;
+    font-size: 15px;
+    margin-right: 40px;
+    margin-left: 10px;
+    
+}
+.dd2{
+    height: 180px;
+    width: 100%;
+}
+ .discover #ali{
+    margin-left: 140px;
+}
+.discover #lia{
+    margin-left: 20px;
 }
