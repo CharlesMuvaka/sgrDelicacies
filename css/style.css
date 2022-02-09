@@ -205,3 +205,72 @@ main{
     width: 100%;
     background-color: #882C37;
 }
+
+.slogan{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+}
+.slogan h2{
+    color: white;
+}
+.slogan p{
+    font-size: 16px;
+    color: #ffa338;
+}
+.slogan1{
+    height: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
+.slogan2{
+    height: 170px;
+    width: 27%;
+    background-color: white;
+    display: flex;
+
+}
+.slogan3{
+    height: 170px;
+    width: 30%;
+    background-image: url("/images/enjoy.png");
+    background-size: cover;
+}
+.slogan31{
+    height: 170px;
+    width: 30%;
+    background-image: url("/images/discover.png");
+    background-size: cover;
+}
+.slogan32{
+    height: 170px;
+    width: 30%;
+    background-image: url("/images/pilau.jpg");
+    background-size: contain;
+}
+.slogan4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 200px;
+    width: 70%;
+}
+.sloH{
+    margin-left: 5px;
+    color: black;
+    font-weight: bold;
+}
+.sloP{
+    margin-left: 5px;
+    font-size: 15px;
+    text-align: justify;
+    color: #2d3e52;
+}
