@@ -11,6 +11,7 @@
 #sausage img{
     width: 20%;
     margin-left: 10%;
+    object-fit: cover;
 }
 .orderone{
     height: 15vh;
@@ -31,20 +32,26 @@
 }
 .addsub{
     display: flex;
-    width: 50%;
-    justify-content: space-between;
+    width: 60%;
+    justify-content: space-evenly;
     margin-left: -20%;
+    align-items: center;
+    align-content: center;
+    
+    
+
     
     
   
 }
 .addsub button{
-    width: 40%;
-    height: 60%;
-    margin-top: 10%;
-    margin-right: 20%;
+    width: 20%;
+    height: 40%;
+    /* margin-top: 10%; */
+     margin-right: 20%; 
     background-color: #882C37;
     color: white;
+    
 
     
 }
@@ -63,18 +70,25 @@
     margin-top: 5%;
     margin-bottom: 5%;
 
+
+}
+#soda{
+    width: 40%;
 }
 #soda img{
-    width: 30%;
+    width: 40%;
     margin-left: 10%;
+    object-fit: cover;
+    
     
 }
 .ordertwo{
     height: 15vh;
-    
+    justify-content: space-between;
     margin-left: 5%;
     display: flex;
     width: 40%;
+    
     
     box-shadow:
   2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
@@ -86,29 +100,31 @@
 
     
 }
-.addsubtwo{
+ .addsubtwo{
     display: flex;
     width: 40%;
     justify-content: space-evenly;
-    margin-left: 20%;
+    margin-left: 20%; 
     
    
 
     
   
-}
+ }
+
 .addsubtwo button{
-    width: 25%;
-    height: 60%;
-    margin-top: 10%;
-    margin-right: 20%;
+    width: 20%;
+    height: 40%;
+     margin-top: 10%;
+    margin-right: 20%; 
     background-color: #882C37;
     color: white;
     
     
 
     
-}
+} 
+
 #canceltwo{
     background-color: #882C37;
     padding: 10%;
@@ -126,9 +142,11 @@
 #hotdog img{
     width: 20%;
     margin-left: 10%;
+    object-fit: cover;
 }
 .historyone{
     height: 15vh;
+    
     
     margin-left: 5%;
     display: flex;
@@ -154,8 +172,8 @@
   
 }
 .subadd button{
-    width: 25%;
-    height: 50%;
+    width: 20%;
+    height: 40%;
     margin-top: 10%;
     margin-right: 20%;
     background-color: #882C37;
@@ -182,6 +200,7 @@
     width: 30%;
     margin-left: 20%;
     margin-top: 10%;
+    object-fit: cover;
     
 }
 .historytwo{
@@ -246,11 +265,81 @@
     color: white;
 }
 
-p {
-    background-color: yellow;
+.buttonp {
+    
     align-items: center;
-    font-size: larger;
+    margin-top: 15%;
+    margin-right: 15%;
 
 }
+@media only screen and (max-width: 600px) {
+  .sausage {
+    display: flex;
+    flex-direction: column;
+  }
+  .orderone{
+      width: 200%;
+  }
+   #cancel{
+      width: 56%;
+      height: 10px;
+      margin-bottom: 10%;
+      text-align: center;
+  }
+
+  .soda{
+      display: flex;
+      flex-direction: column;
+  }
+  .ordertwo{
+      width: 200%;
+  }
+  #canceltwo{
+      width: 56%;
+      height: 10px;
+      margin-bottom: 10%;
+      text-align: center;
+
+  }
+  .hotdog{
+      display: flex;
+      flex-direction: column;
+  }
+  .historyone{
+      width: 200%;
+  }
+  #reorderone{
+      width: 56%;
+      height: 10px;
+      margin-bottom: 10%;
+      text-align: center;
+      margin-left: 40%;
+
+  }
+  .burger{
+      display: flex;
+      flex-direction: column;
+  }
+ .historytwo{
+     width: 200%;
+     
+ }
+ #reordertwo{
+     width: 56%;
+      height: 10px;
+      margin-bottom: 10%;
+      text-align: center;
+      margin-left: 40%;
+ }
+ #menu{
+     width: 200%;
+     height: 70px;
+ }
+    
+  
+}
+ 
+
+
 
 
