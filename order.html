@@ -19,84 +19,127 @@
     <title>order.html</title>
   </head>
   <body>
-    <!-- ORDER ITEMS PART -->
-    <h2 class="orders">Active Orders</h2>
-    <div class="activeorders">
-      <div class="sausage">
-        <div class="orderone">
-          <div id="sausage">
-            <img src="images/sausage.jpg" alt="sausage" />
+    <section class="background-primary text-white">
+      <div class="container">
+        <!-- Active orders -->
+        <div class="row">
+          <div class="col-md-6 text-center mt-4">
+            <div class="activeorder">
+              <h2 class="color-secondary">Active order</h2>
+
+              <div class="media item">
+                <img
+                  class="mr-3 rounded"
+                  src="images/burger.jpg"
+                  width="25%"
+                  alt="Item Image"
+                />
+                <div class="media-body ml-5">
+                  <p>Burger <span class="item-price pl-5">ksh 300</span></p>
+                  <p class="item-text ml-5">
+                    <span class="decrement">-</span
+                    ><span class="price background-primary">1</span
+                    ><span class="increment">+</span>
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="addsub">
-            <button>-</button>
-            <p class="buttonp">1</p>
-            <button>+</button>
+          <div class="col-md-6 mt-5">
+            <button type="button" class="cancel btn btn-danger background-secondary" onclick="cancelOrder(event)">
+              Cancel order
+            </button>
           </div>
         </div>
-        <div class="cancel">
-          <button id="cancel">Cancel Order</button>
-        </div>
-      </div>
-      <div class="soda">
-        <div class="ordertwo">
-          <div id="soda">
-            <img src="images/soda.jpeg" alt="soda" />
-
+        <div class="row">
+          <div class="col-md-6 text-center mt-4">
+            <div class="activeorder">
+              <div class="media item">
+                <img
+                  class="mr-3 rounded"
+                  src="images/sausage.jpg"
+                  width="25%"
+                  alt="Item Image"
+                />
+                <div class="media-body ml-5">
+                  <p>Sausage <span class="item-price pl-5">ksh 100</span></p>
+                  <p class="item-text ml-5">
+                    <span class="decrement">-</span
+                    ><span class="price background-primary">1</span
+                    ><span class="increment">+</span>
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="addsubtwo">
-            <button>-</button>
-            <p class="buttonp">1</p>
-            <button>+</button>
+          <div class="col-md-6 mt-5">
+            <button type="button" class="cancel btn btn-danger background-secondary" onclick="cancelOrder(event)">
+              Cancel order
+            </button>
           </div>
         </div>
-        <div class="cancel">
-          <button id="canceltwo">Cancel Order</button>
-        </div>
-      </div>
-    </div>
-    <h2 class="orders">Order history</h2>
-    <div class="orderhistory">      
-      <div class="hotdog">
-      <div class="historyone">
-        <div id="hotdog">
-          <img src="images/hotdogg.jpg" alt="hotdog" />
-        </div>
-        <div class="subadd">
-          <button>-</button>
-          <p class="buttonp">1</p>
-          <button>+</button>
-        </div>
-      </div>
-      <div class="reorder">
-        <button id="reorderone">Reorder</button>
-      </div>
-      </div>
-      <div class="burger">
-      <div class="historytwo">
-        <div id="burger">
-          <img src="images/burger.jpeg" alt="burger" />
-        </div>
-        <div class="subaddtwo">
-          <button>-</button>
-          <p class="buttonp">1</p>
-          <button>+</button>
-        </div>
-      </div>
-      <div class="reorder">
-        <button id="reordertwo">Reorder</button>
-      </div>
-      </div>
+        <div class="row">
+          <div class="col-md-6 text-center mt-4">
+            <div class="activeorder">
+              <h2 class="color-secondary">Order history</h2>
 
-
-
+              <div class="media item">
+                <img
+                  class="mr-3 rounded"
+                  src="images/hot-dog-gba0f5b38c_1920.jpg"
+                  width="25%"
+                  alt="Item Image"
+                />
+                <div class="media-body ml-5">
+                  <p>Hotdog <span class="item-price pl-5">ksh 250</span></p>
+                  <p class="item-text ml-5">
+                    <span class="decrement">-</span
+                    ><span class="price background-primary">1</span
+                    ><span class="increment">+</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-5">
+            <button type="button" class="btn btn-danger background-secondary">
+              Reorder
+            </button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 text-center mt-4">
+            <div class="activeorder">
+              <div class="media item">
+                <img
+                  class="mr-3 rounded"
+                  src="images/soda.jpeg"
+                  width="25%"
+                  alt="Item Image"
+                />
+                <div class="media-body ml-5">
+                  <p>Soda<span class="item-price pl-5">ksh 150</span></p>
+                  <p class="item-text ml-5">
+                    <span class="decrement">-</span
+                    ><span class="price background-primary">1</span
+                    ><span class="increment">+</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-5">
+            <button type="button" class="btn btn-danger background-secondary">
+              Reorder
+            </button>
+          </div>
+        </div>
+        <button type="button" class="btn btn-danger background-secondary">
+          Return to Main Menu
+        </button>
       </div>
-      <button id="menu">Return to Main Menu</button>
-      
-    </div>
-
-    <div class="text">
-      
-    </div>
+    </section>
+   
 
     <!-- Optional JavaScript -->
     <script src="js/order.js"></script>
