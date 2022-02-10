@@ -1,9 +1,53 @@
-  /*sir felix lucas welcoming page*/
- * {
-    box-sizing: border-box;
-  }
 
- header{
+/* General Styles Start */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.background-primary {
+	background-color: #882c37;
+}
+
+.background-secondary {
+    background-color: #FF5624;
+}
+
+.color-primary {
+	color: #882c37;
+}
+
+.color-secondary {
+    color: #FF5624;
+}
+
+.user-detail__value {
+    margin-top: 52px;
+}
+
+
+/* General Styles End */
+
+/* Payments Section Start */
+hr {
+    border-color: #fff;
+}
+
+.item {
+    background-color: #d4cccc1c;
+    border-radius: 5px;
+}
+
+.price {
+    
+}
+
+/* Payments Section End */
+
+/* Homepage Start */
+
+eader{
     background-image: url("/img/wel\ img.jpg");
     height: 700px;
     width: 100%;
@@ -47,7 +91,4 @@
   background-color: #7D2F39;
   height: 370px;
 }
- 
-  
-
-
+ /* Homepage End */
