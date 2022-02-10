@@ -33,13 +33,26 @@ hr {
     border-color: #fff;
 }
 
+
 .item {
     background-color: #d4cccc1c;
     border-radius: 5px;
+    font-weight: bolder;
+    margin: 20px 0;
 }
 
-.price {
+.item-text {
+    padding-right: 30px;
+    font-size: 20px;
+    /* font-weight: bolder; */
+}
+.increment, .decrement, .price {
+    padding:5px 10px;
     
+}
+
+.increment, .decrement {
+    font-size: 24px;
 }
 
 /* Payments Section End */
