@@ -1,0 +1,154 @@
+/* General Styles Start */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.background-primary {
+	background-color: #882c37;
+}
+
+.background-secondary {
+	background-color: #ff5624;
+}
+
+.color-primary {
+	color: #882c37;
+}
+
+.color-secondary {
+	color: #ff5624;
+}
+
+.user-detail__value {
+	margin-top: 52px;
+}
+
+.show {
+	display: block;
+}
+
+.hide {
+	display: none;
+}
+.full-height {
+	height: 100vh;
+}
+
+/* General Styles End */
+
+/* Payments Section Start */
+hr {
+	border-color: #fff;
+}
+
+.item {
+	background-color: #d4cccc1c;
+	border-radius: 5px;
+	font-weight: bolder;
+	margin: 20px 0;
+}
+
+.item-text {
+	padding-right: 30px;
+	font-size: 20px;
+	/* font-weight: bolder; */
+}
+.increment,
+.decrement,
+.price {
+	padding: 5px 10px;
+}
+
+.increment,
+.decrement {
+	cursor: pointer;
+	font-size: 24px;
+}
+
+/* Payments Section End */
+
+header {
+	background-image: url("../images/cover.jpg");
+	height: 700px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 1300px;
+}
+
+#welcoming {
+	text-align: center;
+	justify-content: center;
+	font-size: large;
+	padding-top: 80px;
+}
+.delicacies {
+	font-size: 50px;
+	font-family: sans-serif;
+	color: #fedd42;
+	font-weight: bold;
+}
+#welcoming p {
+	font-size: 30px;
+	color: white;
+}
+
+#caption {
+	background-color: #7d2f39;
+	color: #fedd42;
+	text-align: center;
+	font-size: x-large;
+}
+.size {
+	width: 500px;
+	height: 500px;
+	align-items: center;
+	margin-left: 30%;
+	margin-top: 5px;
+}
+
+.carousel-inner {
+	background-color: #7d2f39;
+	height: 370px;
+}
+
+/* General Styles Start */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.background-primary {
+	background-color: #882c37;
+}
+
+.background-secondary {
+	background-color: #ff5624;
+}
+
+.color-primary {
+	color: #882c37;
+}
+
+.color-secondary {
+	color: #ff5624;
+}
+
+.user-detail__value {
+	margin-top: 52px;
+}
+
+/* General Styles End */
+
+/* Payments Section Start */
+hr {
+	border-color: #fff;
+}
+
+.item {
+	background-color: #d4cccc1c;
+	border-radius: 5px;
+}
+
