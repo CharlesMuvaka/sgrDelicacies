@@ -30,6 +30,13 @@ let timer = () => {
 	}
 	return (document.querySelector(".timer").innerText = duration);
 };
+
+function orderList() {
+	document.querySelector(".order-list").classList.replace("show", "hide");
+	document.querySelector(".orders").classList.replace("hide", "show");
+
+}
+
 function payments() {
 	countDown = setInterval(timer, 500);
 	document.querySelector(".payments").classList.replace("hide", "show");
