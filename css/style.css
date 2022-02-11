@@ -1,111 +1,83 @@
-*{
-    padding: 0;
-    margin: 0;
-    border-box:;
-}
+
 header{
-    height: 100px;
+    height: 60px;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: white;
 }
-.logo{
-    height: 90px;
-    width: 40%;
-    display: flex;
-    align-items: center;
-    
-    
-}
-.p1{
-    font-weight: bolder;
-    color: #882C37;
-}
-.logo p:last-child{
-    
-    font-size: 13px;
-    position: relative;
-    color: #882C37;
-    left: -75px;
-    bottom: -15px;
-    font-style: italic;
-}
-.logo img{
-    height: 90px;
-    width: 100px;
-    
+#logo{
+    position: absolute;
+    left: 50px;
 }
 nav{
-    
-    height: 100px;
-    width: 40%;
-    display: flex;
-    align-items: center;
-   
-
+    position: absolute;
+    right: 10px;
+    width: 33%;
+    height: 45px;
+    top: 20px;
 }
 nav a:link{
     font-weight: bolder;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 12px;
     color: #2e191b;
     padding-left: 30px;
     
 }
-main{
-    
-    height: 1180px;
-    width: 100%;
-    top: -20px;
-    position: relative;
-    background-color: white;
 
-}
 .book{
-    background-image: url("images/sgrImg.jpeg");
-    background-size: cover;
     height: 200px;
     width: 100%;
     background-color: #882C37; 
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
-.book h4{
+.bookH{
+    
+    height: 50px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+.bookH h5{
     color: white;
     font-weight: bold;
-    margin-left: 50px;
-}
-.trainType{
-    width: 150px;
-    height: 30px;
-    border: 1px solid white;
-    border-radius: 5px;
-   
-}
-.from{
-    width: 250px;
-    height: 30px;
-    border: 1px solid white;
-    border-radius: 5px;
-   
+    
 }
 .myform{
+    height: 80px;
+    
+    width: 90%;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    margin-top: 10px;
+    justify-content: space-between; 
+    
+}
+
+#trainType {
+    display: block;
+    width: 200px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+   
+}
+#trainType1{
+    display: block;
+    width: 150px;
+    height: 30px;
+    border: 0px solid white;
+    border-radius: 5px;
+
 }
 .myform label{
     font-size: 10px;
     color: white;
-    font-weight: 500;
+    font-weight: bold;
 }
-.btnBook{
+#btnBook{
     position: relative;
-    top: 13px;
+    bottom: -14px;
     height: 30px;
     width: 150px;
     background-color: #FF5624;
@@ -113,230 +85,131 @@ main{
     color: white;
     font-size: 11px;
 }
-.main1{
-    height: 500px;
+main{
     width: 100%;
+    height: 700px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    
+}
+.feat1{
+    
+    width: 95%;
+    height: 400px;
    
 }
-.features{
-    height: 500px;
-    width: 40%;
+.cont1{
+    position: absolute;
+    top:350px;
+    height: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    width: 250px;
+    align-items: center;
+    justify-content: space-evenly;
 }
-.features1{
-    height: 500px;
-    width: 50%;
+.cont2{
+    position: absolute;
+    left: 310px;
+    top: 350px;
+    height: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    width: 250px;
+    align-items: center;
+    justify-content: space-evenly;
 }
-.features h5{
-    margin-left: 30px;
-    color: #FF5624;
+.featImg{
+    height: 200px;
+    width: 250px;
+    background-image: url("/images/nt.jpg");
+    background-size: cover;
 }
-.imG{
-    height: 350px;
-    width: 100%;
-    display: flex;
+.featImg2{
+    height: 200px;
+    width: 250px;
+    background-image: url("/images/Mt.jpeg");
+    background-size: cover;
     justify-content: space-around;
     align-items: center;
-    
-    
 }
-.img1{
-    height: 350px;
-    width: 200px;
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-   
-}
-.img1 img{
-    height: 200px;
-    width: 200px;
-    border: 1px;
-    
-}
-.img1 .p3{
-    font-family: 'Times New Roman', Times;
-    font-size: 15px;
-    color: rgb(0, 0, 0);
+.p3{
     font-weight: bold;
+    color: grey;
+    font-size: 15px;
+}
+.p1{
+    font-size: 15px;
+    color: grey;
+    text-align: center;
+}
+#gal{
+    position: absolute;
+    color: #FF5624;
+    top: 310px;
 
 }
-.img1 .p1{
-    font-weight: bold;
-    text-align: center;
-    font-size: 12px;
-    color: rgb(73, 71, 71);
-    
-}
-.imG1{
-    height: 350px;
-    width: 100%;
+.delic{
+    height: 300px;
+    width: 520px;
     background-image: url("/images/serve2.webp");
     background-size: cover;
+    position: absolute;
+    right: 50px;
+    top: 350px;
 }
-.imG1 p{
-    position: relative;
-    left: 400px;
-    top: 80px;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-}
-.imG1 .p2{
-    position: relative;
-    font-size: 12px;
-    font-weight: bold;
-    left: 450px;
-    color: black;
-    
-}
-.features1 h5{
+#gal2{
+    position: absolute;
+    top: 310px;
+    right: 510px;
+    font-size: 20px;
     color: #FF5624;
-    
 }
-.main2{
-    height: 500px;
-    width: 100%;
-    background-color: #882C37;
-}
-
-.slogan{
-    width: 100%;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-    align-items: center;
-}
-.slogan h2{
-    color: white;
-}
-.slogan p{
-    font-size: 16px;
-    color: #ffa338;
-}
-.slogan1{
-    height: 170px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-   
-    
-}
-.slogan2{
-    height: 170px;
-    width: 27%;
-    background-color: white;
-    display: flex;
-
-}
-.slogan3{
-    height: 170px;
-    width: 30%;
-    background-image: url("/images/enjoy.png");
-    background-size: cover;
-}
-.slogan31{
-    height: 170px;
-    width: 30%;
-    background-image: url("/images/discover.png");
-    background-size: cover;
-}
-.slogan32{
-    height: 170px;
-    width: 30%;
-    background-image: url("/images/pilau.jpg");
-    background-size: contain;
-}
-.slogan4{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    height: 200px;
-    width: 70%;
-}
-.sloH{
-    margin-left: 5px;
-    color: black;
+#pw{
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    color: #FF5624;
     font-weight: bold;
 }
-.sloP{
-    margin-left: 5px;
-    font-size: 15px;
-    text-align: justify;
-    color: #2d3e52;
+#pt{
+    color: black;
+    font-size: 13px;
+    position: absolute;
+    top: 90px;
+    right: 10px;
+    font-weight: bold;
 }
 footer{
-    height: 260px;
-    width: 100%;
-    
     display: flex;
-    justify-content: space-evenly;
+    background-color: #882C37;
+    justify-content: space-around;
 }
-.foot1{
-    height: 250px;
-    width: 25%;
-    
-    flex-direction: column;
-    display: flex;
-    justify-content: space-evenly;
+.foot1 h5, .foot2 h5, .f1 h5{
+    color:#FF5624;
+    padding-bottom: 5px;
+    font-size: 20px;
 }
-.foot1 h5, .foot2 h5{
-    color: yellow;
+foot1{
+    width: 20%;
+    background-color: green;
 }
 .pf{
-    text-align: justify;
     font-size: 13px;
-}
-.pf1{
-    height: 180px;
-    width: 100%;
-    color: black;
-   
-}
-.foot2{
-    height: 250px;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-.p53{
-    height: 180px;
-    width: 100%;
     color: black;
 }
 .discover{
-    height: 50px;
-    
+    width: 60%;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-.discover a:link{
-    color: black;
-    font-size: 15px;
-    margin-right: 40px;
-    margin-left: 10px;
-    
+.f1{
+    width: 20%;
 }
-.dd2{
-    height: 180px;
-    width: 100%;
-}
- .discover #ali{
-    margin-left: 140px;
-}
-.discover #lia{
-    margin-left: 20px;
-}
+
+
+
+
+
+
+

@@ -7,172 +7,133 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/71aeab2a55.js" crossorigin="anonymous"></script>
     <title>Madaraka-Express</title>
   </head>
   <body>
-    <header>
-      
-      <div class="logo"> 
-        <img src="images/SgR.png" alt="SGR logo">
-        <p class="p1">KENYA RAILWAYS</p>
-        <p>right on track</p>
+    <header>     
+     
+     <img id="logo" src="/images/logo.png" alt="SGR logo">
+    <nav>
+      <a href="#">Book a Train</a>
+      <a href="delicacies.html">Order</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact</a>
+    </nav>
+
+  </header>
+    <!--1st Section -->
+    <div class="book">
+      <div class="bookH">
+        <h5>Madaraka Express - Online Booking</h5>
       </div>
-      <nav>
-        <a href="#">Book a train</a>
-        <a href="#">Order</a>
-        <a href="#">Stations</a>
-        <a href="#">About Us</a>
-      </nav>
-    </header>
+      <div class="myform">
+       <div>
+        <label for="trainType">TRAIN TYPE</label>
+        <select name="trainType" id="trainType1">
+          <option value="Select..">Select..</option>
+          <option value="InterCounty">InterCounty</option>
+          <option value="Express">Express</option>
+        </select>
+       </div>
+       <div>
+        <label for="from">FROM</label>
+        <select name="from" id="trainType">
+          <option value="Select..">Select..</option>
+          <option value="Mombasa">Mombasa</option>
+          <option value="Nairobi">Nairobi</option>
+        </select>
+       </div>
+       <div>
+        <label for="to">TO</label>
+        <select name="to" id="trainType">
+          <option value="">Select..</option>
+          <option value="Mombasa">Mombasa</option>
+          <option value="Nairobi">Nairobi</option>
+        </select>
+       </div>
+       <div>
+         <label for="departure">DEPARTURE TIME</label>
+         <input type="text" placeholder="mm/dd/yy" id="trainType1"> 
+       </div>
+       <input type="button" id="btnBook" value="Book a Train">
+      </div>
+    </div>
     <main>
-      <!--1st Section -->
-      <div class="book">
-        <h4>Madaraka Express - Online Booking</h4>
-        
-        <form class="myform" name="myForm"> 
-          <div class="label1">
-            <label>TRAIN TYPE</label><br />
-            <Input type="text" name="trainType" class="trainType" value="Select...">
-          </div>
-          <div class="label1">
-            <label>FROM</label><br />
-            <Input type="text" name="trainType" class="from" value="Select...">
-          </div>
-          <div class="label1">
-            <label>TO</label><br />
-          <Input type="text" name="trainType" class="from" value="Select...">
-          </div>
-          <div class="label1">
-            <label>DEPARTURE</label><br />
-            <Input type="text" name="trainType" class="trainType" value="mm/dd/yyyy">
-          </div>
-          <div class="label1">
-          <Input type="button" class="btnBook" value="Book a Train">
-          </div>
-        
-      </form>
-        
+      <div class="feat1">
+        <h5 id="gal">Featured Stations</h5>
+        <h4 id = "gal2">Gallery</h4>
+        <div class="cont1">
+           <div class="featImg">
 
-      </div>
-      <div class="main1">
-        <div class="features">
-          <h5>Featured Stations</h5>
-          <div class="imG">
-            <div class="img1">
-              <img src="/images/nt.jpg" alt="Nairobi Terminus">
-              <p class="p3">Nairobi Terminus</p>
-              <p class="p1">Located at Syokimau, Nairobi. Found just south of the capital city. Built as Two trains with a bridge on top.</p>
-            </div>
-            <div class="img1">
-              <img src="/images/Mt.jpeg" alt="Mombasa Terminus">
-              <p class="p3">Mombasa Terminus</p>
-              <p class="p1">Located at Syokimau, Nairobi. Found just south of the capital city. Built as Two trains with a bridge on top.</p>
-            </div>
-          </div>
+          </div> 
+          
+
+
+
+          <p class="p3">Nairobi Terminus</p>
+          <p class="p1">Located at Syokimau, Nairobi. Found just south of the capital city. Built as Two trains with a bridge on top.</p>
+
+
         </div>
-        <div class="features1">
-          <h5>SGR Delicacies</h5>
-          <div class="imG1">
-            <p>Welcome to SGR Delicacies</h>
-            <p class="p2">Where Tasty Menus live.</p>
+        <div class="cont2">
+          <div class="featImg2">
 
           </div>
-        </div>    
-      </div>
-      <div class="main2">
-        <div class="slogan">
-          <h2>We Provide You An Ultimate Travel Experince</h2>
-          <p>Book Madaraka Express tickets and order food from the comfort of your homes.</p>
+          <p class="p3">Mombasa Terminus</p>
+          <p class="p1">Located in Miritini, Mombasa. Built as concentric circles and a central tower, representing a ripple in the ocean.</p>
+  
+
         </div>
-        <div class="slogan1">
-          <div class="slogan2">
-            <div class="slogan31"></div>
-            <div class="slogan4">
-              <h4 class="sloH">Travel</h4>
-              <p class="sloP">Enjoy your journey with comfort and style! Submerge yourself with the beautiful scenery of Kenya's unique landscapes.</p>
-            </div>
+        <div class="delic">
+          <p id="pw">Welcome to SGR Delicacies</p>
+          <p id="pt">Where tasty menus Live.</p>
 
-          </div>
-          <div class="slogan2">
-            <div class="slogan32"></div>
-            <div class="slogan4">
-              <h4 class="sloH">Order-Food</h4>
-              <p class="sloP">Order your favourite meals as are you navigate throughtout Kenya. Meals delivered immediately after an order is placed.</p>
-            </div>
-
-          </div>
-          <div class="slogan2">
-            <div class="slogan3">
-              
-            </div>
-            <div class="slogan4">
-              <h4 class="sloH">Enjoy</h4>
-              <p class="sloP">Be entertained in Kenya, from eating seafood at your best restaurant in Mombasa to excursions in Tsavo National Parks.</p>
-            </div>
-
-          </div>
-        </div>
+        </div>   
       </div>
+
     </main>
     <footer>
-      <div class="foot1">
+      <div class="f1">
         <h5>About Kenya Railways</h5>
-        <div class="pf1">
-          <p>The Standard Gauge Railway (SGR) is a flagship project by the Government of Kenya as a transport component aimed at delivering Vision 2030 making Kenya a middle income country by 2030.</p>
-        </div>
+        <p>
+          The Standard Gauge Railway (SGR) is a flagship project by the Government of Kenya as a transport component aimed at delivering Vision 2030 making Kenya a middle income country by 2030.
+        </p>
       </div>
       <div class="foot1">
         <h5>Connect with us</h5>
-        <div class="p53">
+        
           <p class="pf"><i class="fa-solid fa-phone"></i> 0709 388 887 - Madaraka Express Passenger Service inquiries, complaints, lost & found.</p>
           <p class="pf"><i class="fa-solid fa-phone"></i>0709 388 888 - Madaraka Express Passenger Service bookings.</p>
           <p class="pf"><i class="fa-solid fa-phone"></i>0709 907 000 - Kenya Railways Headquarters customer care.</p>
           <p class="pf"><i class="fa-solid fa-envelope"></i>info@krc.co.ke</p>
    
-        </div>
-            </div>
+      </div> 
       <div class="foot2">
         <h5>Discover</h5>
-        <div class="dd2">
-          <div class="discover">
-            <i class="fa-solid fa-caret-right"></i><a href="#">Book a train</a>
-            <i class="fa-solid fa-caret-right"></i><a href="#">About Us</a>
-            <i class="fa-solid fa-caret-right"></i><a href="#">Contacts</a>
-            <i class="fa-solid fa-caret-right"></i><a href="#">Our Fleet</a>
-          </div>
-          <div class="discover">
-            <i class="fa-solid fa-caret-right"></i><a href="#">How it Works</a>
-            <i class="fa-solid fa-caret-right"></i><a href="#">Benefits</a>
-            <i class="fa-solid fa-caret-right"></i><a href="#">FAQs</a>
-            <i id="lia" class="fa-solid fa-caret-right"></i><a href="#">Terms</a>
-          </div>
-          <div class="discover">
-            <i class="fa-solid fa-caret-right"></i><a href="#">Payments</a>
-            
-            <i id="ali" class="fa-solid fa-caret-right"></i><a href="#">Privacy</a>
-            
-          </div>
+        
+        <div class="discover">
+          <i class="fa-solid fa-caret-right"></i><a href="#">Book a train</a>
+          <i class="fa-solid fa-caret-right"></i><a href="#">About Us</a>
+          <i class="fa-solid fa-caret-right"></i><a href="#">Contacts</a>
+          <i class="fa-solid fa-caret-right"></i><a href="#">Our Fleet</a>
         </div>
-
+        <div class="discover">
+          <i class="fa-solid fa-caret-right"></i><a href="#">How it Works</a>
+          <i class="fa-solid fa-caret-right"></i><a href="#">Benefits</a>
+          <i class="fa-solid fa-caret-right"></i><a href="#">FAQs</a>
+          <i id="lia" class="fa-solid fa-caret-right"></i><a href="#">Terms</a>
+        </div>
+        <div class="discover">
+          <i class="fa-solid fa-caret-right"></i><a href="#">Payments</a>
+            
+          <i id="ali" class="fa-solid fa-caret-right"></i><a href="#">Privacy</a>
+            
+        </div>
       </div>
+        
+          
     </footer>
-
-    <!-- Optional JavaScript -->
-    <script src="js/script.js"></script>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
