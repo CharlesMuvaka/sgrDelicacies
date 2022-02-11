@@ -1,7 +1,11 @@
+// Global Variables Start
+
+// Global Variables End
+
 // ACTIVE ORDERS AND ORDER HISTORY START
 let countDown;
 let duration = 30;
-let makePayments = document.querySelector(".make-payments");
+let makePayments = document.querySelector(".payments-btn");
 makePayments.addEventListener("click", payments);
 // cancel order
 function cancelOrder(e) {
@@ -28,6 +32,8 @@ let timer = () => {
 };
 function payments() {
 	countDown = setInterval(timer, 500);
+	document.querySelector(".payments").classList.replace("hide", "show");
+	document.querySelector(".orders").classList.replace("show", "hide");
 }
 
 // ACTIVE ORDERS AND ORDER HISTORY END
