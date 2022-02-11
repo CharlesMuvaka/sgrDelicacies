@@ -25,6 +25,17 @@
     margin-top: 52px;
 }
 
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+.full-height {
+    height: 100vh;
+}
+
 
 /* General Styles End */
 
@@ -52,6 +63,7 @@ hr {
 }
 
 .increment, .decrement {
+    cursor:pointer;
     font-size: 24px;
 }
 
