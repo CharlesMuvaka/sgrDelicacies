@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Global Variables Start
 
 // Global Variables End
@@ -101,3 +102,6 @@ let quantityChange = (e) => {
 		return (e.target.nextSibling.innerText = quantity);
 	}
 };
+=======
+
+>>>>>>> homepage

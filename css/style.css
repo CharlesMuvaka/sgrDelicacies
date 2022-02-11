@@ -1,3 +1,13 @@
+/* <<<<<<< HEAD
+=======
+
+/* General Styles Start */
+/* * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+} */
+/* >>>>>>> homepage */ 
 
 header{
     height: 60px;
@@ -206,5 +216,3 @@ foot1{
 .f1{
     width: 20%;
 }
-
-

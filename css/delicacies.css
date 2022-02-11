@@ -22,3 +22,51 @@ nav a:link{
     padding-left: 30px;
     
 }
+/* Payments Section End */
+
+/* Homepage Start */
+
+header{
+    background-image: url("../img/wel img.jpg");
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 1300px;
+ }
+
+ #welcoming{
+     text-align: center;
+     justify-content: center;
+     font-size: large;
+    padding-top: 80px;
+ }
+.delicacies{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #FEDD42;
+    font-weight: bold;
+}
+#welcoming p{
+    font-size: 30px;
+    color: white;
+}
+
+#caption{
+  background-color: #7D2F39;
+  color: #FEDD42;
+  text-align: center;
+  font-size: x-large;
+}
+.size{
+  width: 500px;
+  height: 500px;
+  align-items: center;
+  margin-left: 30%;
+  margin-top: 5px;
+  
+}
+
+.carousel-inner{
+  background-color: #7D2F39;
+  height: 370px;
+}
