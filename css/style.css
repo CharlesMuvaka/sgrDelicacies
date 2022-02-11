@@ -47,8 +47,8 @@ hr {
 
 /* Homepage Start */
 
-eader{
-    background-image: url("/img/wel\ img.jpg");
+header{
+    background-image: url("../img/wel img.jpg");
     height: 700px;
     width: 100%;
     background-repeat: no-repeat;
