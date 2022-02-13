@@ -1,7 +1,12 @@
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 header{
-    height: 60px;
+    height: 50px;
     width: 100%;
+    background-color: white;
 }
 #logo{
     position: absolute;
@@ -22,3 +27,378 @@ nav a:link{
     padding-left: 30px;
     
 }
+.contained{
+    background-color:rgb(204, 199, 199);
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.main1{
+    width: 50%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: space-around;
+}
+.C1{
+    height: 100px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.C1 h3{
+    color:brown;
+}
+.c1 p{
+    font-size: 15px;
+}
+.C2{
+    width: 50%;
+    height: 220px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.C2 p{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+.main2{
+    width: 60%;
+    height: 300px;
+    background-size: cover;
+    background-image: url("/images/serve2.png");
+    background-position: center;
+    
+}
+
+ 
+.menuListBar{
+  
+    background-color:rgb(204, 199, 199);
+    height: 60px;
+    align-items: center;
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+    
+    
+    
+
+}
+#btnMenu{
+    margin-left: 10px;
+    height: 50px;
+    width: 100px;
+    border: 1px solid grey;
+    background-color: grey;
+    color: black;
+    border-radius: 5px;
+}
+#btnMenu:hover{
+  background-color: #FF5624;
+}
+#subMenu{
+  display: none;
+  padding: 15px;
+  margin-left: 20px;
+  width: 80%;
+  justify-content: space-around;
+  
+ 
+}
+.subMenu a{
+    display: inline;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    background-color: grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.dMenu{
+  margin-left: 45px;
+  padding: 5px;
+  background-color: grey;
+  width: 100px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  /* margin-top: 5px; */
+}
+
+
+.dMenu:hover{
+    background-color: brown;
+    color: white;
+}
+/* }
+.menuListBar ul a{
+    text-decoration: none;
+}
+.menuListBar ul{
+    list-style: none;
+    color: white;
+    display: inline-flex;
+}
+.menuListBar ul li{
+    margin: 10px;
+    padding: 10px; 
+    width: 120px;
+}
+.menuListBar ul li a{
+    padding: 10px;
+    border-radius: 2px;
+    background-color: grey;
+}
+
+  #menuHead{
+    color:#882C37;
+    font-weight: bold;
+    font-size: 35px;
+  }
+  .cointain p{
+    font-size: 45px;
+    
+  }
+  .h{
+    color: #f87952 ;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+  }
+  .our{
+    font-size: 25px;
+    color: #882C37;
+    font-size: 30px;
+    font-weight: bold;
+  }
+.contain label{
+    font-size: 25px;
+    color: #FF5624;
+    font-style: italic;
+}*/
+.mainContainer{
+  background-color:rgb(204, 199, 199);
+  height: 950px;
+   position: relative; 
+
+}
+#hide{
+  
+  height: 940px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+#drinks{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#meals{
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+}
+.divone1 {
+    width: 100%;
+    height: 310px;
+    background-color: rgb(204, 199, 199);
+    display: inline-flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    align-items: center;
+  } 
+  .divone{
+    width: 100%;
+    height: 310px;
+    background-color: rgb(204, 199, 199);
+    display: inline-flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
+  .divone2{
+    width: 100%;
+    height: 310px;
+    background-color: rgb(204, 199, 199);
+    display: inline-flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
+  .item{
+    width: 190px;
+    height: 300px;
+    background-color:#FF5624;
+    border: 1px solid white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+  } 
+.item img{
+    height: 100px;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+}
+.item h5{
+  font-weight: bold;
+  font-style: italic;
+  margin: 0;
+    padding: 0;
+  }
+  .item p{
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+  }
+  #price{
+    font-weight: bold;
+    color: black;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+  }
+  #btnCart{
+    width:100px;
+    
+    background-color: #882C37;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #882C37;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+  } 
+  .lastD{
+    background-color:rgb(204, 199, 199);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #btnOrder{
+    height: 50px;
+    width: 100px;
+    background-color: #FF5624;
+    color: white;
+    border: 1px solid #FF5624;
+    border-radius: 5px;
+  }
+  .summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 100%;
+    background-color: rgb(235, 226, 226);
+  }
+  .sum1{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sum1 h4{
+    color: #FF5624;
+  }
+  .sum2{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+  }
+  .sum21{
+    width: 23%;
+    height: 250px;
+  }
+  .sum21 p{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+  }
+  .sum21 p:last-child{
+    font-size: 10px;
+    font-weight: 100;
+    color: black;
+  }
+.sumImg{
+  background-image: url("/images/innerSGR.jpg");
+  background-size: cover;
+    height: 200px;
+    width: 100%;
+  }
+  .sumImg1{
+    background-image: url("/images/serve4.jpeg");
+    background-size: cover;
+      height: 200px;
+      width: 100%;
+    }
+    .sumImg2{
+      background-image: url("/images/elephant.jpeg");
+      background-size: cover;
+        height: 200px;
+        width: 100%;
+      }
+      .sumImg3{
+        background-image: url("/images/sgrCrew.jpeg");
+        background-size: cover;
+          height: 200px;
+          width: 100%;
+        }
+
+        footer{
+          display: flex;
+          background-color: #882C37;
+          justify-content: space-around;
+      }
+      .foot1 h5, .foot2 h5, .f1 h5{
+          color:#FF5624;
+          padding-bottom: 5px;
+          font-size: 20px;
+      }
+      foot1{
+          width: 20%;
+          background-color: green;
+      }
+      .pf{
+          font-size: 13px;
+          color: black;
+      }
+      .discover{
+          width: 60%;
+          padding-left: 10px;
+          padding-right: 10px;
+      }
+      .f1{
+          width: 20%;
+      }
+      
