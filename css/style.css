@@ -87,9 +87,10 @@ nav a:link{
 }
 main{
     width: 100%;
-    height: 700px;
+    height: 400px;
     display: flex;
     justify-content: center;
+    
     
 }
 .feat1{
@@ -152,7 +153,7 @@ main{
 .delic{
     height: 300px;
     width: 520px;
-    background-image: url("/images/serve2.webp");
+    background-image: url("/images/serve2.png");
     background-size: cover;
     position: absolute;
     right: 50px;
@@ -180,6 +181,74 @@ main{
     right: 10px;
     font-weight: bold;
 }
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 100%;
+    background-color: rgb(235, 226, 226);
+  }
+  .sum1{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sum1 h4{
+    color: #FF5624;
+  }
+  .sum2{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+  }
+  .sum21{
+    width: 23%;
+    height: 250px;
+  }
+  .sum21 p{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+  }
+  .sum21 p:last-child{
+    font-size: 10px;
+    font-weight: 100;
+    color: black;
+  }
+.sumImg{
+  background-image: url("/images/innerSGR.jpg");
+  background-size: cover;
+    height: 200px;
+    width: 100%;
+  }
+  .sumImg1{
+    background-image: url("/images/serve4.jpeg");
+    background-size: cover;
+      height: 200px;
+      width: 100%;
+    }
+    .sumImg2{
+      background-image: url("/images/elephant.jpeg");
+      background-size: cover;
+        height: 200px;
+        width: 100%;
+      }
+      .sumImg3{
+        background-image: url("/images/sgrCrew.jpeg");
+        background-size: cover;
+          height: 200px;
+          width: 100%;
+        }
+
 footer{
     display: flex;
     background-color: #882C37;
@@ -206,5 +275,11 @@ foot1{
 .f1{
     width: 20%;
 }
+
+
+
+
+
+
 
 
